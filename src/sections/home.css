@@ -1,0 +1,39 @@
+#home {
+ background-image: url('../images/lambh.jpeg');
+ padding: 20%;
+ margin-top: -5%; 
+ width: 100vw;
+ height: 900px;
+  background-repeat: no-repeat;
+  object-fit:fill;
+  background-size:cover;
+  position: relative;
+ 
+}
+
+ .overlay {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+   font-weight: 900;
+  
+ }
+
+ .overlay h1 {
+  margin: 0;
+  line-height: 1.2; 
+  font-size: 80px;
+   text-shadow: 5px 5px black;
+}
+
+.overlay p {
+  margin-top: 0;
+  color: #f2c616;
+  margin-left: px;
+  line-height: 1.2;
+  font-weight:bold; 
+ font-size: 30px;
+ 
+   text-shadow: 5px 5px black;
+}

@@ -1,0 +1,63 @@
+.footer {
+  background: #050505;
+  padding: 60px 10% 30px;
+  border-top: 1px solid #111;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+/* Sections */
+.footer h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  color: #f2c616;
+}
+
+.footer-middle ul li a{
+     display: flex;
+     gap:6px;
+  align-items: center;
+}
+/* Links */
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: #f2c616;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: f2c616;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #f2c616;
+  font-size: 0.9rem;
+}
+
+/* Developer credit */
+/* .dev {
+  color: f2c616;
+  font-weight: 500;
+} */

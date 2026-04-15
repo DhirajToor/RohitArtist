@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import ScrollToSection from "./ScrollToSection";
+import Footer  from "./components/Footer";
+
+import Home from "./sections/Home";
+import Bio from "./sections/Bio";
+import Media from "./sections/Media";
+import Merch from "./sections/Merch";
+import Photos from "./sections/Photos";
+import Shows from "./sections/Shows";
+import Contact from "./sections/Contact";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>   
+      <Navbar />
+      <ScrollToSection />
+
+      {/* Sections */}
+      <Home />
+      <Bio />
+      <Shows />
+      {/* <Media />
+      <Photos /> */}
+      
+      
+      <Merch />
+      <Contact />
+
+      {/* Routes */}
+      <Routes>
+        <Route path="/" element={null} />
+        <Route path="/bio" element={null} />
+        {/* <Route path="/media" element={null} />
+        <Route path="/photos" element={null} /> */}
+        <Route path="/shows" element={null} />
+        
+        <Route path="/merch" element={null} />
+        <Route path="/contact" element={null} />
+      </Routes>
+
+      <Footer/>
+    </Router>
   );
 }
 

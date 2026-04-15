@@ -1,13 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a;
+  color: #f2c616;
+  overflow-x: hidden;
+}
+.logo{
+  width: 270px;
+  height: 180px;
+}
+/* Sections */
+.section {
+  min-height: 100vh;
+  padding: 120px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Headings */
+h1 {
+  font-size: 4rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
 }
+
+h2 {
+  font-weight: 300;
+  color: #f2c616;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px; /* 👈 must match offset above */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  background: rgba(10,10,10,0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  color: #f2c616;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #8c7518;
+}
+
+/* Hero */
+.home {
+  padding: 0;
+  position: relative;
+}
+
+.bg-video {
+  /* margin-left: -80px; */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+
+.overlay h1 {
+  font-size: 6rem;
+}
+
+.overlay p {
+  max-width: 500px;
+  color: #ddd;
+}
+
+
+/* Buttons */
+button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  background: #111;
+  color: white;
+}
+
+ .merch-card .item{
+  width: 100%;
+  
+ }
+
+ .flex{
+  display:flex;
+  gap:20px;
+flex-wrap: wrap;
+ }
+
+ 
+
+
+
+
+
