@@ -4,10 +4,8 @@ import ScrollToSection from "./ScrollToSection";
 import Footer  from "./components/Footer";
 
 import Home from "./sections/Home";
-import Bio from "./sections/Bio";
-import Media from "./sections/Media";
-import Merch from "./sections/Merch";
-import Photos from "./sections/Photos";
+import Bio from "./sections/Bio"; 
+import Merch from "./sections/Merch"; 
 import Shows from "./sections/Shows";
 import Contact from "./sections/Contact";
 
