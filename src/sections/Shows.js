@@ -16,62 +16,116 @@ export default function Shows()
        <h1>Releases</h1>
       <div className="release-container">
        <div className='release'>
+                <a
+      href="https://www.youtube.com/watch?v=XO-2_rqjAJE"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
         <img width={180} height={240}
            src= {shows1}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Boss</p>
+        <p> Dec 6, 2025</p>
+    </a>
+      
       </div>
       
        <div className='release'>
-        <img width={180} height={240}
+         <a  
+               href="https://www.youtube.com/watch?v=x0wvJC0J89A"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img width={180} height={240}
            src= {shows2}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Koke Waliye</p>
+        <p> Jan 23, 2026 </p>
+         </a>
       </div>
 
       
        <div className='release'>
-        <img width={180} height={240}
+           <a  
+               href="https://www.youtube.com/watch?v=iOFK3Iu6W3E"
+               target="_blank"
+               rel="noopener noreferrer">
+                      <img width={180} height={240}
            src= {shows3}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Dubai Vibe</p>
+        <p>Oct 2, 2025</p>
+               </a>
+    
       </div>
 
       
        <div className='release'>
-        <img width={180} height={240}
+        <a  
+               href="https://www.youtube.com/watch?v=awZZz-9WSa4&list=RDawZZz-9WSa4&start_radio=1"
+               target="_blank"
+               rel="noopener noreferrer">
+                   <img width={180} height={240}
            src= {shows4}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Kheeji Kheeji</p>
+        <p>Jan 6, 2026</p>
+               </a>
+       
       </div>
 
       
        <div className='release'>
-        <img width={180} height={240}
+              <a  
+               href="https://www.youtube.com/watch?v=SKTSEPN2HhU"
+               target="_blank"
+               rel="noopener noreferrer">
+                  <img width={180} height={240}
            src= {shows5}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Phagware Da King</p>
+        <p>Aug 30, 2025 </p>
+               </a>
+        
       </div> 
-      
+        
        <div className='release'>
-        <img width={180} height={240}
+          <a  
+               href="https://www.youtube.com/watch?v=uzDl8vwYayY"
+               target="_blank"
+               rel="noopener noreferrer"> 
+                <img width={180} height={240}
            src= {nakhre}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+           
+        <p>Nakhre </p>
+        <p> Feb 25, 2025</p>
+
+               </a>
+        
       </div> 
       
        <div    className='release'>
+
+       
+          <a  
+               href="https://www.youtube.com/watch?v=OQiM-lqA7bQ"
+               target="_blank"
+               rel="noopener noreferrer"> 
+        
         <img width={180} height={240}
            src= {lembo}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Lamborghini </p>
+        <p> May 3, 2025</p>
+               </a>  
+
+
       </div> 
       
        <div   className='release' >
+
+         <a  
+               href="https://www.youtube.com/watch?v=4siinZp4KHQ&list=RD4siinZp4KHQ&start_radio=1"
+               target="_blank"
+               rel="noopener noreferrer"> 
         <img  
            src= {gym}     alt=""/>
-        <p>Toronto — April 12</p>
-        <p>New York — May 5</p>
+        <p>Gym vs Love </p>
+        <p>May 31, 2024 </p>
+        </a>
       </div> 
       
 

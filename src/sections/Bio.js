@@ -2,7 +2,7 @@ import DJ from '../images/Dj_video_mp4.mp4';
 import './bio.css';
 export default function Bio() {
   return (
-    <section id=" " className=" ">
+    <section id="bio" className="  ">
       <div className='bio-container'>
        
 

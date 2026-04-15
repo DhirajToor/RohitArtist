@@ -21,12 +21,12 @@ export default function Footer() {
                 <FaInstagram /> @rsharma__official 
               </a>
             </li>
-
+{/* 
             <li>
               <a href="https://twitter.com" target="_blank" rel="noreferrer">
                 <FaApple /> Twitter / X
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a href="https://www.youtube.com/@RohitSharma-pb4ks" target="_blank" rel="noreferrer">

@@ -1,23 +1,53 @@
 import './contact.css'
 import logo from '../images/logo_no_back.png';
+
+import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
 export default function Contact() {
   return (
-    <section id="contact" className="section">
-    <div className='contact'>
     
-      <img className="contact-logo" src={logo} alt="" />
-             <form>
-             
-      <h2>Bookings</h2>
-        <input placeholder="Name" />
-        <input placeholder="Email" />
-        <textarea placeholder="Message" />
-        <button>Send</button>
-      </form>
-      
-    </div>
-
+     <section id="contact" className="contact-section">
      
+      <img className="contact-logo" src={logo} alt="" />
+      <h2 className="contact-title">BOOKINGS</h2>
+
+      <div className="contact-grid">
+        <div className="contact-item">
+        
+        <a   href="tel:+16477824497" target="_blank" rel="noopener noreferrer">
+            <div className="icon-circle">
+            <FaPhone />
+          </div>
+          <h3>PHONE</h3>
+          <p>+1 647 782-4497</p>
+
+        </a>
+         
+        </div>
+
+        <div className="contact-item">
+        <a   href="https://www.instagram.com/djtigerclaw/" target="_blank" rel="noopener noreferrer">
+           <div className="icon-circle">
+            <FaInstagram />
+          </div>
+          <h3>MANAGEMENT</h3>
+          <p>Rohit Sharma</p>
+        
+        </a>
+        </div>
+
+        <div className="contact-item">
+        
+        <a   href="mailto:vs004545@gmail.com" target="_blank" rel="noopener noreferrer">
+          <div className="icon-circle">
+            <FaEnvelope />
+          </div>
+          <h3>EMAIL</h3>
+          <p>vs004545@gmail.com</p>
+
+        </a>
+         
+        </div>
+      </div>
     </section>
   );
 }

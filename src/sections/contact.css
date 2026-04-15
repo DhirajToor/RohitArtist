@@ -17,11 +17,59 @@
     object-fit: cover;
     margin-bottom: 20px;
     text-align: center;
+} 
+
+
+
+
+.contact-section {
+  background: radial-gradient(circle at top, #111 0%, #000 100%);
+  color: #f2c616;
+  text-align: center;
+  padding: 80px 20px;
 }
-form h2{
-  font-size: 40px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color:#f2c616;
-  text-transform: uppercase;
+
+.contact-title {
+  font-size: 3.5rem;
+  color: #f2c616;
+   
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  max-width: 220px;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background: #f2c616;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+  color: #000;
+}
+
+.contact-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.contact-item a {
+  font-size: 0.95rem;
+  color: #f2c616; 
+  text-decoration: none;
 }
