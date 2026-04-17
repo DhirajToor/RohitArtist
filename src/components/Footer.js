@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Branding */}
         <div className="footer-left">
           <h2>Rohit Sharma</h2>
-          <p>Creating immersive sound & visual experiences.</p>
+          <p>Creating immersive sound &  experiences.</p>
         </div>
 
         {/* Social Links */}

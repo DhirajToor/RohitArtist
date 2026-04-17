@@ -1,7 +1,8 @@
 import './contact.css'
 import logo from '../images/logo_no_back.png';
 
-import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaTeamspeak } from "react-icons/fa";
+import { IoPeople } from "react-icons/io5";
 export default function Contact() {
   return (
     
@@ -25,9 +26,9 @@ export default function Contact() {
         </div>
 
         <div className="contact-item">
-        <a   href="https://www.instagram.com/djtigerclaw/" target="_blank" rel="noopener noreferrer">
+        <a   href="mailto:djtigerclaw1093@gmail.com" target="_blank" rel="noopener noreferrer">
            <div className="icon-circle">
-            <FaInstagram />
+            <IoPeople />
           </div>
           <h3>MANAGEMENT</h3>
           <p>Rohit Sharma</p>
