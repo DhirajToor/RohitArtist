@@ -18,7 +18,7 @@ export default function Footer() {
           <ul>
             <li>
               <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                <FaInstagram /> @rsharma__official 
+                <FaInstagram /> Instagram
               </a>
             </li>
 {/* 
@@ -47,7 +47,7 @@ export default function Footer() {
           <h3>Contact</h3>
 
           <p>
-            <FaEnvelope /> sharmarohit9322@gmail.com
+            sharmarohit9322@gmail.com
           </p>
 
           <p>Bookings & inquiries welcome</p>

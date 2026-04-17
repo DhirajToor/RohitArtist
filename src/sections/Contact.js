@@ -37,12 +37,12 @@ export default function Contact() {
 
         <div className="contact-item">
         
-        <a   href="mailto:vs004545@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a   href="mailto:sharmarohit9322@gmail.com" target="_blank" rel="noopener noreferrer">
           <div className="icon-circle">
             <FaEnvelope />
           </div>
           <h3>EMAIL</h3>
-          <p>vs004545@gmail.com</p>
+          <p>sharmarohit9322@gmail.com</p>
 
         </a>
          

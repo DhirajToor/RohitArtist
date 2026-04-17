@@ -5,8 +5,7 @@
   margin-top: 70px; 
   line-height: 1.1;
   font-weight: bold;
-  color:#f2c616;
-  
+  color:#f2c616; 
   text-align: center;
   width: 100vw;
   height: 800px;
@@ -14,10 +13,8 @@
 
 }
 
-.releases a p {
-  /* margin-top: -27px;
-  gap: 13px;
-  line-height: ; */
+.releases   {
+  text-align: center;
 }
 
 .release-container{
@@ -43,4 +40,50 @@
   height: 300px; 
   object-fit: contain;
   transition: 0.4s; 
+}
+
+
+
+.gold-btn2:hover{
+  background-color: black;
+  color: #f2c616;
+  border: 2px solid #f2c616;
+  
+  cursor: pointer;
+  /* transition: all 0.3s ease; */
+  
+}
+
+/* Hover effect */
+.gold-btn2 {
+  background-color: #f2c616;
+  color: black;
+  width: 35px;
+  height: 40px;
+  padding-right: 30px;  
+  /* font-size: 14px;
+  font-weight: 600; */ 
+ 
+
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(242, 198, 22, 0.6);
+  transform: translateY(-1px);
+}
+
+/* Click effect */
+.gold-btn2:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 6px rgba(242, 198, 22, 0.4);
+}
+ 
+.play{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35px;
+  height:25px;
+  padding-top: 5px;
+  /* padding-right: 4px; */
+  position: absolute  ;
+  margin-top: -80px;
+  right: 80px;
 }

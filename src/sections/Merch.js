@@ -17,7 +17,7 @@ export default function Merch() {
           alt="" />
           <h3>Hoodie</h3>
           <p>$65</p>
-          <button>Coming Soon</button>
+          <button className="gold-btn">Coming Soon</button>
         </div>
 
         
@@ -26,7 +26,7 @@ export default function Merch() {
          src={bracelet}  alt="" />
           <h3>Bracelet</h3>
           <p>$40</p>
-          <button>Coming Soon</button>
+          <button  className="gold-btn">Coming Soon</button>
         </div>
         
       
@@ -38,14 +38,14 @@ export default function Merch() {
          src={cap}  alt="" />
           <h3>Cap</h3>
           <p>$35</p>
-          <button>Coming Soon</button>
+          <button  className="gold-btn">Coming Soon</button>
         </div>
         <div className="grid">
           <img className="item" 
           src={tshirt} alt="" />
           <h3>T-Shirt</h3>
           <p>$25</p>
-          <button>Coming Soon</button>
+          <button  className="gold-btn">Coming Soon</button>
         </div>
       </div>
       <div className='merch-video'>

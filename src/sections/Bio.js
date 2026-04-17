@@ -21,8 +21,14 @@ Rohit Sharma is a Toronto-based Punjabi singer, songwriter, producer and DJ craf
  
       </p>
 
+             
+
       
         </div>
+
+        
+        <div className='marquee'> <div  direction="left" className='marquee-content'>  Available For Booking Contact: sharmarohit9322@gmail.com    <span className='mm'> Mob +1 647 782-4497 </span>   </div></div>
+
      
         </div>
       </div>

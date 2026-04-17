@@ -6,6 +6,7 @@
 }
 section  h2{
   font-size: 60px;
+  margin-top: 40px;
   margin-bottom: 40px;
   font-weight: bold;
   color:#f2c616;
@@ -64,8 +65,7 @@ section  h2{
   align-items: center; */
 }
 
-.grid button{
-  background: white;
+.grid button{ 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -98,4 +98,38 @@ section  h2{
   margin-top: -20px;
   margin-right: 35px;
   filter: brightness(0.95);
+}
+
+
+
+
+
+.gold-btn:hover{
+  background-color: black;
+  color: #f2c616;
+  border: 2px solid #f2c616;
+  
+  cursor: pointer;
+  /* transition: all 0.3s ease; */
+  
+} 
+
+
+.gold-btn { 
+  background-color: #f2c616;
+  color: black;  
+    
+
+  /* padding: 10px;
+  font-weight: 600;
+  font-weight: bold;
+  border-radius: 4px; */
+  box-shadow: 0 0 12px rgba(242, 198, 22, 0.6);
+  transform: translateY(-1px);
+}
+
+/* Click effect */
+.gold-btn:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 6px rgba(242, 198, 22, 0.4);
 }
