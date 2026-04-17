@@ -14,7 +14,7 @@ export default function Navbar() {
         
         <li><NavLink to="/merch">Merch</NavLink></li>
         
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/contact">Bookings</NavLink></li>
       </ul>
     </nav>
   );

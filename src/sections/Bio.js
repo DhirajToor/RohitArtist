@@ -17,7 +17,7 @@ export default function Bio() {
 
       <p style={{ maxWidth: "1080px", lineHeight: "1.6" }}>
     
-Rohit Sharma is a Toronto-based Punjabi singer, songwriter, producer and DJ crafting modern Punjabi pop with a global edge. Blending hypnotic melodies, hip-hop energy and raw romantic storytelling, his sound hits both the heart and the dancefloor. From studio to stage, he doesn’t just make music he creates a vibe you remember.  
+Rohit Sharma is a Toronto-based Punjabi singer, songwriter, producer and DJ crafting   Punjabi pop with a global edge. Blending hypnotic melodies, hip-hop energy and raw romantic storytelling, his sound hits both the heart and the dancefloor. From studio to stage, he doesn’t just make music he creates a vibe you remember.  
  
       </p>
 
@@ -27,7 +27,7 @@ Rohit Sharma is a Toronto-based Punjabi singer, songwriter, producer and DJ craf
         </div>
 
         
-        <div className='marquee'> <div  direction="left" className='marquee-content'>  Available For Booking Contact: sharmarohit9322@gmail.com    <span className='mm'> Mob +1 647 782-4497 </span>   </div></div>
+        <div className='marquee'> <div  direction="left" className='marquee-content'>  Available For Booking, Contact: sharmarohit9322@gmail.com    <span className='mm'> Mob +1 647-782-4497 </span>   </div></div>
 
      
         </div>

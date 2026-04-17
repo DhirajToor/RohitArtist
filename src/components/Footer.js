@@ -1,5 +1,6 @@
 import './footer.css'
-import { FaInstagram, FaYoutube,  FaSpotify  } from "react-icons/fa";
+import {FaSoundcloud, FaYoutube,  FaSpotify, FaApple  } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -17,16 +18,16 @@ export default function Footer() {
           <h3>Connect</h3>
           <ul>
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                <FaInstagram /> Instagram
+              <a href="https://on.soundcloud.com/Pc9BCwnsqdFY055OQq" target="_blank" rel="noreferrer">
+                <FaSoundcloud /> SoundCloud
               </a>
             </li>
-{/* 
+
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                <FaApple /> Twitter / X
+              <a href="https://music.apple.com/ca/artist/rohit-sharma/1749740087" target="_blank" rel="noreferrer">
+                <FaApple /> Apple Music
               </a>
-            </li> */}
+            </li>
 
             <li>
               <a href="https://www.youtube.com/@RohitSharma-pb4ks" target="_blank" rel="noreferrer">

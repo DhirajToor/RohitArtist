@@ -1,0 +1,32 @@
+.social-bar {
+    position: absolute;
+    right: 150px;
+    top: 220px;
+  display: flex;
+  gap: 13px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 330px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border: 2px solid rgb(242, 246, 4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2c616;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: #f2c616;
+  color: black;
+  transform: scale(1.1);
+}

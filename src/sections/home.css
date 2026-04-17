@@ -37,3 +37,11 @@
  
    text-shadow: 5px 5px black;
 }
+
+.home-list { 
+  display: flex;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  margin-top: 20px;
+}
