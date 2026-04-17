@@ -104,3 +104,7 @@ width: 102%;
     transform: translateX(-100%);
   }
 }
+
+.mm {
+  margin-left: 50px;
+}
