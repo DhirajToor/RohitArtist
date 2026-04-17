@@ -1,7 +1,7 @@
 import './contact.css'
 import logo from '../images/logo_no_back.png';
 
-import { FaPhone, FaEnvelope, FaTeamspeak } from "react-icons/fa";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 import { IoPeople } from "react-icons/io5";
 export default function Contact() {
   return (
